@@ -9,22 +9,18 @@ html {
 
 body {
   margin: 0;
-  padding-bottom: 20px;
-  margin-right: 20px;
 }
 
 article {
-  padding-right: 1px;
-  padding-left: 1em;
-  margin-top: 2px;
   border-bottom: 1px solid #999;
+  padding: 0 1em 10px 1em;
+  margin: 10px 10px 5px 10px;
 }
 
 article header {
   color: #222;
   font-family: "Crimson Text";
   border-bottom: 1px solid #999;
-  margin-bottom: 10px;
 }
 
 article h1 {
@@ -36,14 +32,11 @@ article h1 {
 article header p {
   font-weight: normal;
   font-style: italic;
-  margin-top: 5px;
+  margin-top: 1px;
 }
 
 article p {
   font-family: "Crimson Text";
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 5px;
 }
 
 blockquote {
@@ -51,7 +44,7 @@ blockquote {
   color: #555;
   font-size: 1.125rem;
   text-align: left;
-  margin: 10px 38px;
+  margin: 30px 38px;
 }
 
 .quote {
@@ -61,10 +54,9 @@ blockquote {
 article ol {
   font-family: "Crimson Text";
   color: #222;
-  padding-left: 15px;
+  padding-left: 1em;
 }
 
 article p:nth-of-type(5) {
   color: #222;
-  margin-bottom: 22px;
 }
